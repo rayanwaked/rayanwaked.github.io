@@ -12,7 +12,7 @@ fun main() {
 // Body
 @Composable
 fun Home() {
-    val imageSrc = "https://64.media.tumblr.com/102e649ad5d7a9d4ef2e06fafce6d2b7/tumblr_p12k10pWyR1viuar9o1_1280.gif"
+    val imageSrc = "https://media4.giphy.com/media/3o6ZsYezqjqsFFWrNm/200w.gif?cid=6c09b952hz2lxg8zg8h8id1n7c1n75vh8oywulgmbetxat4l&ep=v1_gifs_search&rid=200w.gif&ct=g"
     val headerTitle = "waked.dev"
     val linkedinUrl = "https://linkedin.com/in/rayanwaked"
     val githubUrl = "https://github.com/rayanwaked"
@@ -95,6 +95,7 @@ fun StyleScope.h1() {
     display(DisplayStyle.Flex)
     justifyContent(JustifyContent.Center)
     alignItems(AlignItems.Center)
+    paddingTop(5.vh)
 }
 
 fun StyleScope.h2() {
