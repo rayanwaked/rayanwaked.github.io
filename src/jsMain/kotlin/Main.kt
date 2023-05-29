@@ -55,6 +55,8 @@ fun Home() {
                     "aquainted with HTML, CSS, Typescript, React, and Ionic.")
         }
 
+        Div({ style { spacer() } })
+
         // Projects
         H2({ style { h2() } }) {
             Text("Projects")
@@ -90,7 +92,7 @@ fun StyleScope.image() {
 fun StyleScope.h1() {
     color(Color.white)
     fontWeight(500)
-    fontSize(2.2.em)
+    fontSize(2.4.em)
     letterSpacing(0.045.em)
     display(DisplayStyle.Flex)
     justifyContent(JustifyContent.Center)
@@ -100,7 +102,7 @@ fun StyleScope.h1() {
 
 fun StyleScope.h2() {
     color(Color.white)
-    fontWeight(500)
+    fontWeight(400)
     fontSize(2.em)
     letterSpacing(0.035.em)
     display(DisplayStyle.Flex)
@@ -111,7 +113,8 @@ fun StyleScope.h2() {
 
 fun StyleScope.h3() {
     color(Color.red)
-    fontSize(1.1.em)
+    fontWeight(400)
+    fontSize(1.2.em)
     letterSpacing(0.045.em)
     gap(20.px)
     display(DisplayStyle.Flex)
